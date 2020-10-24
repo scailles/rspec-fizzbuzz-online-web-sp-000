@@ -11,7 +11,7 @@ def fizzbuzz(input)
     puts "Fizz"
   end
     
-  elsif input % 5 == 0
+  else input % 5 == 0
     puts "Buzz"
   end
 end
