@@ -8,11 +8,11 @@ def fizzbuzz(input)
   
     
   elsif input % 3 == 0 
-    puts "Fizz"
+    return "Fizz"
 
     
   else input % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   end
 end
 
