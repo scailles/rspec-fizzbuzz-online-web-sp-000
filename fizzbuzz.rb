@@ -5,11 +5,11 @@
 def fizzbuzz(input)
   if input % 3 == 0 && input % 5 == 0
     puts "FizzBuzz"
-  end
+  
     
-  else input % 3 == 0 
+  elsif input % 3 == 0 
     puts "Fizz"
-  end
+
     
   else input % 5 == 0
     puts "Buzz"
