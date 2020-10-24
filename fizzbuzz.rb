@@ -5,8 +5,7 @@
 def fizzbuzz(input)
   if input % 3 == 0
     puts "Fizz"
-  else input % 5 == 0
-    puts "Buzz"    
+    
 end
 
 end
